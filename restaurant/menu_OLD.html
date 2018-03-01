@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Menu - Delicatessen of Expression</title>
+		<link rel="stylesheet" type="text/css" href="css/restaurantStyle.css" />
+		<style type="text/css">
+			.menuSection{
+				background: url(../images/UI/textBackground.png), repeat;
+				border-style: outset;
+				border-color: #888;
+				padding: 2ch 1.5% 3ch;
+				margin: 2ch 4ch;
+				text-align: center;
+				overflow: hidden;
+			}
+
+			.menuItem{
+				float: left;
+				width: 30%;
+				padding: 0 1.5% 2ch;
+			}
+
+			.bevTable{
+				border-style: outset;
+				border-color: #888;
+				width: 50%;
+				margin-left: auto;
+				margin-right: auto;
+				border-collapse: collapse;
+			}
+
+			.bevItem{
+				border-style: outset;
+				border-color: #888;
+			    font-weight: bold;
+			    font-family: Arial, Helvetica, sans-serif;
+			    text-align:left;
+			    padding:0.5ch 1ch;
+			}
+
+			.bevPrice{
+				border-style: outset;
+				border-color: #888;
+			    font-weight: bold;
+			    color: maroon;
+			    font-family: Arial, Helvetica, sans-serif;
+			    width:25%;
+			    text-align: center;
+			    padding:0;
+			    margin:0;
+			}
+			.menuCatName{
+				text-shadow: 1px 1px #555;
+				font-size: 1.7em;
+			    font-weight: bold;
+			    display:block;
+			    margin: 0 0 1ch;
+			    font-family: Arial, Helvetica, sans-serif;
+			    text-decoration-line: underline;
+			}
+
+			.menuItemName{
+				font-size: 1.20em;
+			    font-weight: bold;
+			    font-family: Arial, Helvetica, sans-serif;
+			    display:block;
+			    margin-bottom: 1.2ch;
+			}
+
+			.menuItemPrice{
+				font-size: 1em;
+			    font-weight: bold;
+			    color: maroon;
+			    margin: 0;
+			    padding: 1.5ch;
+			    font-family: Arial, Helvetica, sans-serif;
+			    display:block;    
+			}
+		</style>
+	</head>
+
+	<body id="content">
+		<div id="header">
+			<h1 id="delExp_Name">Delicatessen of Expression</h1>
+			<h3 id="delExp_Tagline">There's no question, we leave quite the impression!</h3>
+		</div>
+		<div id="navbar">
+				<a class="navMain" href="index.html">Home</a> | <a class="navMain" href="menu.html">Menu</a> | <a class="navMain" href="contactUs.html">Contact Us</a>
+		</div>
+		<div id="mainBody">
+			<div id="mainWrapper">
+				<div class="menuSection">
+					<span class="menuCatName">Meals</span>
+					<div class="menuItem">
+						<span class="menuItemName">Reuben</span>
+						It's a reuben!<br /> 
+						This is what you came here for.<br /> 
+						This is your destiny...
+						<span class="menuItemPrice">$14.95</span>
+					</div>
+					<div class="menuItem">
+						<span class="menuItemName">Jack Plank's<br />Sauna-Smoked Pork</span>
+						Jack Plank's famous Sauna smoked pork!<br />
+						(it melts on your fork!)
+						<span class="menuItemPrice">$13.95</span>
+					</div>
+					<div class="menuItem">
+						<span class="menuItemName">Rachel:<br />Return of the Reuben</span>
+						The Reuben has returned...<br />
+						And this time, it's packing pastrami.
+						<span class="menuItemPrice">$14.95</span>
+					</div>
+				</div>
+				<div class="menuSection">
+					<span class="menuCatName">Deserts</span>
+					<div class="menuItem">
+						<span class="menuItemName">The I Cream</span>
+						Serves 2, but can serve 1 if you loudly declare "MY CREAM" upon it being served.
+						<span class="menuItemPrice">$12.95*</span>
+						<sup>*additional cost of 1 (former) friend for single serving</sup>
+					</div>
+					<div class="menuItem">
+						<span class="menuItemName">Joss Ross's<br />Boss Moss Floss</span>
+						Delicious candy floss made from all natural sphagnum moss! It's Joss Ross' Boss Moss Floss: Try it with Sauce!
+						<span class="menuItemPrice">$6.95</span>
+					</div>
+					<div class="menuItem">
+						<span class="menuItemName">Crunchy Frog</span>
+						Whizzo Chocolate Company's delicious new confection! Only the finest baby frogs, dew-picked and flown from iraq, cleansed in the finest quality spring water, lightly killed, and sealed in a succulent, Swiss, quintuple-smooth, treble-milk chocolate envelope,
+					 	and lovingly frosted with glucose.
+						<span class="menuItemPrice">-$1.00<br />and a liability waiver</span>
+					</div>
+				</div>
+				<div class="menuSection">
+					<table class="bevTable">
+						<tr>
+							<th colspan="2"><span class="menuCatName">Beverages</span></th>
+						</tr>
+						<tr>
+							<th class="bevItem">Root Beer</th>
+							<th class="bevPrice">$3.00</th>
+						</tr>
+						<tr>
+							<th class="bevItem">Bottled Water</th>
+							<th class="bevPrice">$1.25</th>
+						</tr>
+						<tr>
+							<th class="bevItem">Lemonade</th>
+							<th class="bevPrice">$1.00</th>
+						</tr>
+						<tr>
+							<th class="bevItem">Iced Tea</th>
+							<th class="bevPrice">$1.25</th>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		</body>
+		<!--deprecated content<table>
+			<tr>
+				<th colspan="3"><h3>Meals</h3></th>
+			</tr>
+			<tr>
+				<th>Reuben</th>
+				<th>Jack Plank's Sauna-Smoked Pork</th>
+				<th>Rachel: Return of the Reuben</th>
+			</tr>
+			<tr>
+				<td>It's a reuben!<br /> 
+				This is what you came here for.<br /> 
+				This is your destiny... <br /> 
+				<br />
+				For $14.95.</td>
+				<td> Jack Plank's famous Sauna smoked pork!<br />
+				(it melts on your fork!)<br />
+				<br />
+				$13.95
+				</td>
+				<td>The Reuben has returned...<br />
+					With pastrami.<br />
+					<br />
+				$14.95
+				</td>
+			</tr>
+			<tr
+>				<th colspan="3"><h3>Desserts</h3></th>
+			</tr>	
+			<tr>
+				<th>The I Cream</th>
+				<th>Joss Ross's Boss Moss Floss</th>
+				<th>Crunchy Frog</th>
+			</tr>
+			<tr>
+				<td>Serves 2, but can serve 1 if you<br /> 
+				loudly declare "MY CREAM" upon its being served.<br />
+				<br /> 
+				$12.95*<br />
+				<sup>*additional cost of 1 (former) friend for single serving</sup></td>
+				<td> Delicious candy floss made from all natural sphagnum moss!<br />
+				It's Joss Ross' Boss Moss Floss: Try it with Sauce!<br />
+				<br />
+				$5.95
+				</td>
+				<td>Whizzo Chocolate Company's delicious new confection!<br />
+					Only the finest baby frogs, dew-picked and flown from<br />
+					 Iraq, cleansed in the finest quality spring water, <br />
+					 lightly killed, and sealed in a succulent, Swiss, <br />
+					 quintuple-smooth, treble-milk chocolate envelope, <br />
+					 and lovingly frosted with glucose.<br />
+					 <br />
+				-$1.00 and a liability waiver
+				</td>
+			</tr>
+		</table>
+	-->
+
+	<footer>
+		42 Lane St, Betelgeuse V, New York, 11235
+		<br />
+		(555) 555-5555
+		<br />
+		&copy; 2018 Jared Ratoff
+	</footer>
+</html>

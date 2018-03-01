@@ -1,0 +1,25 @@
+body{
+	background: url(../images/UI/background.png), repeat;
+
+}
+
+footer{
+	padding: 0.5em 3%;
+	border-style: inset;
+    border-width: 2px 0;
+    border-color: black;
+    background: url(../images/UI/navBackground.png), repeat;
+}
+
+.container{
+	background: url(../images/UI/foreground.png), repeat;	
+}
+
+.jumbotron{
+	background: url(../images/UI/headerBackground.png), repeat;
+}
+
+.row{
+	background: url(../images/UI/textBackground.png), repeat;
+}
+

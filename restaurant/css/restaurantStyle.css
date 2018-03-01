@@ -1,0 +1,174 @@
+
+
+#content {
+	background: url(../images/UI/background.png), repeat;
+	margin: 0% 20%;
+	padding: 0px;
+}
+
+#header{
+	background: url(../images/UI/headerBackground.png), repeat;
+	padding: 0px 3ch;
+	margin: 0px;
+	text-align: center;
+}
+
+#navbar {
+	background: url(../images/UI/navBackground.png), repeat;
+	padding: 0.5em 0px;
+	margin:  0px;
+	border-style: inset;
+    border-width: 2px 0;
+    border-color: black;
+	text-align: center;
+}
+
+#mainBody{
+	background: url(../images/UI/foreground.png), repeat;
+	padding: 0 1.5%;
+}
+
+#mainWrapper{
+	background-color: #edc;
+	padding: 2ch 1.5% 3ch;
+}
+
+.menuSection{
+	background: url(../images/UI/textBackground.png), repeat;
+	border-style: outset;
+	border-color: #888;
+	padding: 2ch 1.5% 3ch;
+	margin: 2ch 4ch;
+	text-align: center;
+	overflow: hidden;
+}
+
+.menuItem{
+	float: left;
+	width: 30%;
+	padding: 0 1.5% 2ch;
+}
+
+.bevTable{
+	border-style: outset;
+	border-color: #888;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+.bevItem{
+	border-style: outset;
+	border-color: #888;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    padding:0.5ch 1ch;
+}
+
+.bevPrice{
+	border-style: outset;
+	border-color: #888;
+    font-weight: bold;
+    color: maroon;
+    font-family: Arial, Helvetica, sans-serif;
+    width:25%;
+    text-align: center;
+    padding:0;
+    margin:0;
+}
+
+footer{
+	padding: 0.5em 3%;
+	border-style: inset;
+    border-width: 2px 0;
+    border-color: black;
+    background: url(../images/UI/navBackground.png);
+}
+
+
+/*-------Text Styling-------*/
+
+h1, h2, h3, h4, h5, h6{
+        margin: 0;
+        padding: 0 0 10px;
+        font-family: Arial, Helvetica, sans-serif;
+       ;
+    }
+
+p{
+	text-indent: 7ch;
+}
+
+a:link{
+	color: blue;
+}
+
+a:visited{
+	color: darkblue;
+}
+
+a:hover{
+	color: #436;
+	font-weight: bold;
+}
+
+a:active{
+	color: black;
+	text-decoration-line: none;
+}
+
+#delExp_Name{
+	text-shadow: 2.5px 2.5px #555;
+	font-size: 3em;
+}
+
+#delExp_Tagline{
+	text-shadow: 1px 1px #555;
+}
+
+.menuCatName{
+	text-shadow: 1px 1px #555;
+	font-size: 1.7em;
+    font-weight: bold;
+    display:block;
+    margin: 0 0 1ch;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-line: underline;
+}
+
+.menuItemName{
+	font-size: 1.20em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display:block;
+    margin-bottom: 1.2ch;
+}
+
+.menuItemPrice{
+	font-size: 1em;
+    font-weight: bold;
+    color: maroon;
+    margin: 0;
+    padding: 1.5ch;
+    font-family: Arial, Helvetica, sans-serif;
+    display:block;    
+}
+
+.navMain{
+	background-color: #edc;
+	border: 1.5px;
+	border-color: #888;
+	border-style: outset;
+	padding: .3em;
+	display:inline-block;
+    text-align:center;
+    width: 10ch;
+}
+
+.navMain:hover{
+	background-color: #dcb;
+	border-style: inset;
+	font-weight:bold;
+}
